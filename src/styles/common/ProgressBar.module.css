@@ -1,0 +1,19 @@
+.progressContainer {
+  width: 100%;
+}
+
+.progressContainer > progress {
+  width: 100%;
+  accent-color: #0bceaf;
+}
+
+.progressColor {
+    height: 26px;
+}
+
+/* .progressColor::-webkit-progress-bar {
+    accent-color: green !important;
+ }
+.progressColor::-webkit-progress-value {
+    accent-color: red !important;
+ } */

@@ -1,0 +1,90 @@
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center !important;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.nameInput {
+  padding-right: 5px;
+  padding-left: 5px;
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  margin-left: 0;
+  text-align: left;
+  box-sizing: border-box;
+}
+.nameInput input {
+  font-size: 1rem;
+  border-radius: 25px;
+  padding: 24px;
+  padding-right: 120px;
+  width: 100%;
+  background-clip: padding-box;
+  border: 2px solid #ced4da;
+  height: 0px;
+  margin-left: 0;
+  text-align: left;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+input:focus {
+  border: 2px solid #0bceaf;
+  overflow: auto;
+}
+
+.seinput {
+  margin-top: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  flex: 0 0 100%;
+  max-width: 100%;
+  position: relative;
+  margin-left: 0;
+  text-align: left;
+  box-sizing: border-box;
+}
+.seinput > input {
+  font-size: 1rem;
+  border-radius: 25px;
+  padding: 24px;
+
+  width: 100%;
+  background-clip: padding-box;
+  border: 2px solid #ced4da;
+  height: 0px;
+  margin-left: 0;
+  text-align: left;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+.seinput input:focus {
+  border: 2px solid #0bceaf;
+}
+
+.seinput > textarea {
+    font-size: 1rem;
+    font-family: Roboto, sans-serif;
+    border-radius: 25px;
+    padding: 24px;
+    width: 100%;
+    background-clip: padding-box;
+    border: 2px solid #ced4da;
+    height: 150px;
+    margin-left: 0;
+    text-align: left;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.seinput > textarea:hover {
+    border: 2px solid #0bceaf;
+    overflow: auto;
+  }
